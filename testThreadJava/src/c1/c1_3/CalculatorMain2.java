@@ -1,4 +1,4 @@
-package classOne;
+package c1.c1_3;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -21,7 +21,8 @@ public class CalculatorMain2 {
 			}
 			threads[i].setName("Thread " + i);
 		}
-		try (FileWriter file = new FileWriter(".\\data\\logCalculatorMain2.txt"); PrintWriter pw = new PrintWriter(file);) {
+		try (FileWriter file = new FileWriter(".\\data\\logCalculatorMain2.txt");
+				PrintWriter pw = new PrintWriter(file);) {
 			for (int j = 0; j < 10; j++) {
 				pw.println("Main : Status of Thread " + j + " £º " + threads[j].getState());
 				status[j] = threads[j].getState();
