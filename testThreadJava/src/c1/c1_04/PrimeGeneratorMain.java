@@ -1,4 +1,4 @@
-package c1.c1_4;
+package c1.c1_04;
 
 // 5. 现在, 实现一个名为Main的类，包括实现main()方法来实现例子的Mian类。
 public class PrimeGeneratorMain {

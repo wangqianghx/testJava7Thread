@@ -1,4 +1,4 @@
-package c1.c1_4;
+package c1.c1_04;
 
 // 1. 创建一个名为PrimeGenerator的类，扩展Thread类。
 public class PrimeGenerator extends Thread {

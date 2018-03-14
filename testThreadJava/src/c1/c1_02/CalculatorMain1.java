@@ -1,4 +1,4 @@
-package c1.c1_2;
+package c1.c1_02;
 
 public class CalculatorMain1 {
 

@@ -1,4 +1,4 @@
-package c1.c1_9;
+package c1.c1_09;
 
 // 现在，实现例子主类。实现 Main类和 main() 方法.
 public class Main {

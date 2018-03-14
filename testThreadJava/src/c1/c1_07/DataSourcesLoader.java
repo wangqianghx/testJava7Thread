@@ -1,11 +1,11 @@
-package c1.c1_7;
+package c1.c1_07;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-// 创建一个类名为 NetworkConnectionsLoader 并一定要Runnable接口。
-// 实现run()方法。它将与DataSourcesLoader类的run()方法一样，但是它会睡眠6秒。
-public class NetworkConnectionsLoader implements Runnable{
+// 创建一个类名为 DataSourcesLoader 并一定实现Runnable接口。
+public class DataSourcesLoader implements Runnable {
+	// 实现run()方法。 它写信息来表明它开始运行，然后睡眠4秒，最后再写信息表明它结束运行。
 	@Override
 	public void run() {
 		System.out.printf("Beginning data sources loading: %s\n", new Date());
@@ -16,4 +16,5 @@ public class NetworkConnectionsLoader implements Runnable{
 		}
 		System.out.printf("Data sources loading has finished:%s\n", new Date());
 	}
+
 }
