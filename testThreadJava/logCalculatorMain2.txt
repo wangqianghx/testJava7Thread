@@ -1,3 +1,2 @@
 Bundle-Name=\u7ec4\u4ef6\u540d\u79f0
 Bundle-Description=\u7ec4\u4ef6\u529f\u80fd\u63cf\u8ff0
-  
